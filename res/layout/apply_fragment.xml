@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Your package folder -->
+<com.yourname.theme.GridSetup2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#fff0f1f1" >
+
+    <Button
+        android:id="@+id/btn_nova"
+        style="@style/LauncherButton"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/preview1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/icon_nova"
+        android:maxWidth="60dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="NOVA" />
+
+    <Button
+        android:id="@+id/btn_apex"
+        style="@style/LauncherButton"
+        android:layout_alignTop="@+id/btn_nova"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btn_nova"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/icon_apex"
+        android:maxWidth="60dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="APEX" />
+
+    <Button
+        android:id="@+id/btn_adw"
+        style="@style/LauncherButton"
+        android:layout_alignTop="@+id/btn_nova"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btn_apex"
+        android:drawableTop="@drawable/icon_adw"
+        android:maxWidth="60dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="ADW / ADWEX" />
+
+    <Button
+        android:id="@+id/btn_action"
+        style="@style/LauncherButton"
+        android:layout_alignTop="@+id/btn_nova"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btn_adw"
+        android:drawablePadding="15dp"
+        android:drawableTop="@drawable/icon_action"
+        android:maxWidth="60dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="ACTION" />
+
+</com.yourname.theme.GridSetup2>

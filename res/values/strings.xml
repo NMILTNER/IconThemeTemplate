@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppName</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="find">Find Me on G+</string>
+    <string name="email">Email Me</string>
+    <string name="apply">Apply Theme</string>
+    <string name="rate">Rate Theme</string>
+    <string name="share">Share Theme</string>
+    <string name="market">market://details?id=com.yourname.theme</string>
+    <string name="web">https://play.google.com/store/apps/details?id=com.yourname.theme</string>
+    <string name="pkg">com.yourname.theme</string>
+    <string name="walls">Set Wallpaper</string>
+    <string name="thanks">Thank you for using blah blah blah</string>
+
+    <!-- Basic theme information -->
+    <string name="theme_title">Theme Title</string>
+    <string name="developer_name">Who Are you</string>
+    <!-- Icon pack of white tiles and dark images on top -->
+    <string name="developer_link">Web site here</string>
+    <string name="theme_description">\n\nEmail: email address if you want</string>
+
+    <!-- Theme settings -->
+    <bool name="config_iconpack">true</bool>
+    <bool name="config_apexskin">false</bool>
+
+    <!-- The feature graphic will appear above the theme description -->
+    <string name="theme_feature">feature</string>
+
+    <!-- Each theme may have up to 5 preview images -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+</resources>

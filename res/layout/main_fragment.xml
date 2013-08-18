@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Your package folder -->
+<com.yourname.theme.GridSetup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#fff0f0f0" >
+
+    <!-- News Feed Button -->
+
+    <Button
+        android:id="@+id/btn_apply"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_apply"
+        android:maxWidth="100dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="@string/apply" />
+
+    <!-- Friends Button -->
+
+    <Button
+        android:id="@+id/btn_email"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_email"
+        android:padding="10dp"
+        android:text="@string/email" />
+
+    <!-- Messages Button -->
+
+    <Button
+        android:id="@+id/btn_rate"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_rate"
+        android:padding="10dp"
+        android:text="@string/rate" />
+
+    <!-- Places Button -->
+
+    <Button
+        android:id="@+id/btn_plus"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_plus"
+        android:padding="10dp"
+        android:text="@string/find" />
+
+    <!-- Events Button -->
+
+    <Button
+        android:id="@+id/btn_share"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_share"
+        android:maxWidth="100dp"
+        android:padding="10dp"
+        android:text="@string/share" />
+
+    <Button
+        android:id="@+id/btn_walls"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/icon_wall"
+        android:maxWidth="100dp"
+        android:minHeight="48dip"
+        android:padding="10dp"
+        android:text="@string/walls" />
+
+</com.yourname.theme.GridSetup>
